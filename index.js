@@ -5,22 +5,22 @@ inquirer
     .prompt([
         {
             type: "input",
-            message: "What's your project title?",
+            message: "Add your project title?",
             name: "title"
         },
         {
             type: "input",
-            message: "Describe your projecj:",
+            message: "Describe your project:",
             name: "description"
         },
         {
             type: "input",
-            message: "Add installation insructions with separated list:",
+            message: "Instructions about your project:",
             name: "install"
         },
         {
             type: "input",
-            message: "Add usage info for your project:",
+            message: "Add usage for your project:",
             name: "usage"
         },
         {
@@ -176,7 +176,7 @@ function createREADMEFile(input) {
         
     
     //Creating the README
-    fs.writeFile("./example/README-example.md", README, (err) => {
+    fs.writeFile("./Example/README-example.md", README, (err) => {
         if (err) {
             throw err;
         } else {
