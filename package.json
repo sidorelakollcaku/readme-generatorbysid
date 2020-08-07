@@ -1,0 +1,24 @@
+{
+    "name": "readme-generatorbysid",
+    "version": "1.0.0",
+    "description": "This is an app that will take the users input and then generate a professional README file for your project.",
+    "main": "index.js",
+    "dependencies": {
+      "fs": "0.0.1-security",
+      "inquirer": "^7.3.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sidorelakollcaku/readme-generatorbysid"
+    },
+    "author": "Sidorela Kollcaku",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/sidorelakollcaku/readme-generatorbysid/issues"
+    },
+    "homepage": "https://github.com/sidorelakollcaku/readme-generatorbysid"
+  }
