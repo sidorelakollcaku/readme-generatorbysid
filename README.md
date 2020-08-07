@@ -7,6 +7,7 @@ CLI application that uses the inquirer npm package to prompt questions to the us
 ## Installation
 1. Fork repository
 2. Clone repository to local environment
+3. Run npm install to install dependencies (inquirer, fs)
 
 ## Usage
 To begin the question prompts, in the driectory containing this project, from the command line run node index.js. Answer all of the following questions, when complete the README.md file will be generated in the current directory.  
